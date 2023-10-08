@@ -1,0 +1,22 @@
+.container__content {
+    width: 80%;
+    border: 1px solid white;
+    margin: 0 auto;
+    height: 100vh;    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.content__cover {
+    display: flex;
+    align-items: center;
+    
+}
+
+.content__cover > img {
+    width: 700px;
+    height: 400px;
+}

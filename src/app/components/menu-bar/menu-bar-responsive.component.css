@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .menu-bar__list{
+        display: none;
+    }
+
+    .container__menu-bar {
+        justify-content: space-between;
+    }
+    .menu-bar__logo {
+        margin-left: 10px;
+    }
+
+        
+}
+
+@media screen and (max-width: 1200px) {
+    
+}

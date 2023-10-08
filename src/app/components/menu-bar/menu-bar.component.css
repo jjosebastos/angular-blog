@@ -1,0 +1,45 @@
+.container__menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-bar__logo {
+    font-size: 15px;
+}
+
+.menu-bar__list {
+    display: flex;
+    list-style: none;
+}
+.menu-bar__list li {
+    display: block;
+    margin: 10px 10px;
+    transition: 1.3s;
+    cursor: pointer;
+}
+
+.menu-bar__list > li > a {
+    font-family: 'Georgia', Courier, monospace;
+    transition: 0.3s;
+}
+
+.menu-bar__list li a:hover {
+    color: rgba(201,1,1, 0.7);
+}
+
+
+.menu-bar__icon-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.menu-bar__icon-container > span {
+    background-color: #fff;
+    color: black;
+}

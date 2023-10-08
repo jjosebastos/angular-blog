@@ -1,18 +1,18 @@
 <div class="container__big-card">
     <div class="big-card_picture">
         <img 
-        src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png" 
+        src="{{ photoCover }}" 
         alt="Imagem como SM-placeholder"
         height="200px"
         >
     </div>
     <div class="big-card__title">
-            <h1><a href="">Saiu a nova versão do Angular</a></h1>
+            <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
         <p>
-            <a href="">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam culpa voluptatem velit ratione. Maiores, repudiandae deserunt, a minima ex recusandae architecto ratione labore ipsam culpa officia blanditiis quis nostrum aut.
+            <a [routerLink]="['content', Id]">
+            {{ cardDescription }}
             </a>
         </p>
     </div>
