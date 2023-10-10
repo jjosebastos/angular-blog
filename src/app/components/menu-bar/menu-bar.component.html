@@ -1,10 +1,21 @@
 <div class="container__menu-bar">
+        <div class="menu-bar__logo">
+            <h1><a [routerLink]="['']">Geek<span>News</span></a></h1>
+        </div>
+        <ul class="menu-bar__list">
+            <li><a [routerLink]="['']">Home</a></li>
+            <li><a href="">Notícias</a></li>
+            <li><a [routerLink]="['contact']">Contate-nos</a></li>
+        </ul>
 
+        <div class="menu-bar__login">
+            <button><a href="#">Criar conta</a></button>
+            <button><a href="#">Conectar</a></button>
+        </div>
 
-
-    <ul class="menu-bar__list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Notícias</a></li>
-        <li><a href="#">Contate-nos</a></li>
-    </ul>
+        <div class="menu-bar__burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>            
 </div>

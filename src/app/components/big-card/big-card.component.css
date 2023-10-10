@@ -26,4 +26,10 @@
 .container__big-card > img {
     width: 100%;
     min-width: 400px;
+    height: 200px;
+}
+
+.big-card_picture > img
+{
+    height: 200px;
 }

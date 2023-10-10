@@ -1,0 +1,17 @@
+footer{
+    bottom: 1;
+    background-color: rgba(201,1,1, 0.7);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-infos__container p {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer-infos__container > p > a {
+    font-weight: bold;
+    cursor: pointer;
+}

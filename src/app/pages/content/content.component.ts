@@ -11,7 +11,6 @@ export class ContentComponent implements OnInit {
   photoCover:string = "";
   contentTitle:string = "";
   contentDescription:string = "";
-  contentParagraphTwo:string = "";
   private id:string | null = "0";
   constructor(private route:ActivatedRoute) {
     

@@ -14,7 +14,7 @@ export const dataFake = [
     },
     {
         "id": "3",
-        "title": "JUJUTSU KAISEN 0",
+        "title": "PALMEIRAS FRAQUEJA EM CASA",
         "description": "Filme explicará o passado do feiticeiro Yuta Okkotsu. A história diz que ele tão promissor quanto o Satoru Gojo.",
         "photoCover": "https://criticalhits.com.br/wp-content/uploads/2021/12/jujutsu-kaisen-0-movie-poster-1.jpg"
     },
