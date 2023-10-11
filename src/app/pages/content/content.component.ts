@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { dataFake } from 'src/app/data/dataFake';
+import { dataFake } from '../../data/dataFake';
 
 @Component({
   selector: 'app-content',
@@ -12,13 +12,14 @@ export class ContentComponent implements OnInit {
   contentTitle:string = "";
   contentDescription:string = "";
   private id:string | null = "0";
-  constructor(private route:ActivatedRoute) {
-    
+  
+  constructor(private navigation:ActivatedRoute) {
+     
  
    }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe ( value => this.id = value.get("id"))
+    this.navigation.firstChild?.paramMap.subscribe ( value => this.id = value.get("id"))
     this.setValuesToComponent(this.id )
   }
   setValuesToComponent (id:string | null) {

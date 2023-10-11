@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { dataFake } from '../../data/dataFake';
+import { dataFake } from '../../../data/dataFake';
 
 
 @Component({
